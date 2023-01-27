@@ -2,7 +2,7 @@
 <Characters>
   <Character>
     <Name>Demo</Name>
-    <HP></HP>
-    <AC></AC>
+    <HP>10</HP>
+    <AC>16</AC>
   </Character>
 </Characters>
