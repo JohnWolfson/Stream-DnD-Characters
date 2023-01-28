@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CharacterData>
+  <Characters>
+    <ID>ID</ID>
+    <Name>Strings</Name>
+    <Race>Tabaxi</Race>
+    <Class>Rogue</Class>
+    <HP>
+      <Current>50</Current>
+      <Max>60</Max>
+    </HP>
+    <AC>16</AC>
+  </Characters>
+  <Characters>
+    <ID>ID</ID>
+    <Name>Winter</Name>
+    <Race>Tabaxi</Race>
+    <Class>Samuria</Class>
+    <HP>
+      <Current>70</Current>
+      <Max>75</Max>
+    </HP>
+    <AC>18</AC>
+  </Characters>
+  <Characters>
+    <ID>ID</ID>
+    <Name>Orik</Name>
+    <Race>Dwarf</Race>
+    <Class>Fighter</Class>
+    <HP>
+      <Current>80</Current>
+      <Max>90</Max>
+    </HP>
+    <AC>19</AC>
+  </Characters>
+</CharacterData>

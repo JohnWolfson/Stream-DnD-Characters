@@ -11,9 +11,9 @@ namespace StreamDnDCharacters.Models
 {
     class XMLProcessor
     {
-        public Characters LoadData()
+        public CharacterData LoadData()
         {
-            Characters characterData = new Characters();
+            CharacterData characterData = new CharacterData();
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();
@@ -23,7 +23,7 @@ namespace StreamDnDCharacters.Models
                 {
                     XmlSerializer serializer = new XmlSerializer(characterData.GetType());
                     TextReader reader = new StreamReader(dialog.FileName);
-                    characterData = (Characters)serializer.Deserialize(reader);
+                    characterData = (CharacterData)serializer.Deserialize(reader);
                     reader.Close();
                 }
             }

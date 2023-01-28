@@ -8,26 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using StreamDnDCharacters.Models;
+using StreamDnDCharacters.Models.Logic;
+
 
 namespace StreamDnDCharacters
 {
     public partial class MainWindow : Form
     {
+        CharacterController controller;
         private GUI UI;
-        private Characters characters;
 
         public MainWindow()
         {
             InitializeComponent();
-            characters = new Characters();
-            UI = new GUI(this);
-            this.Controls.Add(UI.MenuStrip);
-        }
-
-        public void LoadCharacterData(object sender, EventArgs e)
-        {
-            XMLProcessor xmlProc = new XMLProcessor();
-            characters = xmlProc.LoadData();
+            controller = new CharacterController();
+            UI = new GUI(controller);
+            this.Controls.Add(UI.GetMainPanel());
+            this.Controls.Add(UI.GetMenuStrip());
+            this.Text = "D&D Twitch Character Control Panel";
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
         }
     }
 }

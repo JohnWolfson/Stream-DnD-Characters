@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using StreamDnDCharacters.Models.Logic;
 
 namespace StreamDnDCharacters.Models
 {
     class MainMenu : MenuStrip
     {
-        private MainWindow window;
+        private GUI parent;
 
-        public MainMenu(MainWindow NewWindow)
+        public MainMenu(GUI newGUI)
         {
-            window = NewWindow;
+            parent = newGUI;
             this.Dock = DockStyle.Top;
             this.Items.Add(getFileItem());
         }
@@ -30,7 +31,7 @@ namespace StreamDnDCharacters.Models
         {
             ToolStripMenuItem load = new ToolStripMenuItem();
             load.Text = "Load Characters";
-            load.Click += new EventHandler(window.LoadCharacterData);
+            load.Click += new EventHandler(parent.LoadFile);
             return load;
         }
     }
