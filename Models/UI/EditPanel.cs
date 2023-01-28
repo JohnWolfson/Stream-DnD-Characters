@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,7 @@ namespace StreamDnDCharacters.Models
             parent = newParent;
             this.Dock = DockStyle.Fill;
             this.FlowDirection = FlowDirection.TopDown;
+            this.BackColor = Color.LightGray;
             initialiseInputs(newCharacter);
             addControlsToPanel();
         }

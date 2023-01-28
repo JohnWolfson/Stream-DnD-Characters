@@ -37,6 +37,8 @@ namespace StreamDnDCharacters.Models
         {
             Label newLabel = new Label();
             newLabel.Text = newText;
+            newLabel.Font = new Font("Impact", 24);
+            newLabel.AutoSize = true;
             return newLabel;
         }
 

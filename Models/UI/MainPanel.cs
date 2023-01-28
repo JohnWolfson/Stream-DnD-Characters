@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace StreamDnDCharacters.Models
             this.AutoSize = true;
             this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             this.MinimumSize = new System.Drawing.Size(200, 100);
+            this.BackColor = Color.Transparent;
         }
 
         public void AddNewCharacterPanel(CharacterPanel newPanel)

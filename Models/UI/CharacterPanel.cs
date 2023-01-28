@@ -22,7 +22,7 @@ namespace StreamDnDCharacters.Models
             characterID = newCharacter.ID;
             displayPanel = new DisplayPanel(newCharacter);
             editPanel = new EditPanel(this, newCharacter);
-            this.Size = new Size(200, 500);
+            this.Size = new Size(600, 500);
             this.SplitterDistance = 250;
             this.IsSplitterFixed = true;
             this.Orientation = Orientation.Horizontal;

@@ -1,0 +1,17 @@
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.exe
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.deps.json
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.runtimeconfig.json
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.runtimeconfig.dev.json
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.dll
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\ref\StreamDnDCharacters.dll
+D:\Visual Studio\Stream-DnD-Characters\bin\Release\net5.0-windows\StreamDnDCharacters.pdb
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.MainWindow.resources
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.csproj.GenerateResource.cache
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.AssemblyInfoInputs.cache
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.AssemblyInfo.cs
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.dll
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\ref\StreamDnDCharacters.dll
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.pdb
+D:\Visual Studio\Stream-DnD-Characters\obj\Release\net5.0-windows\StreamDnDCharacters.genruntimeconfig.cache

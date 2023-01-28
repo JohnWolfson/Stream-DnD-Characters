@@ -28,6 +28,7 @@ namespace StreamDnDCharacters
             this.Text = "D&D Twitch Character Control Panel";
             this.AutoSize = true;
             this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            this.BackColor = Color.Green;
         }
     }
 }
